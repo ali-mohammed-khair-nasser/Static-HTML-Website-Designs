@@ -1,0 +1,221 @@
+/********************************************************************************************************************************************************
+
+SASS HTML5 TEMPLATE THEME                                                         ****     ****   **********   ****         ****            *********
+=========================                                                         ****     ****   **********   ****         ****          *************
+                                                                                  ****     ****   ****         ****         ****         ****       ****
+Author : TIEQUDE TEAM                                                             ****     ****   ****         ****         ****        ****         ****
+Website: www.tiequde.com                                                          *************   **********   ****         ****        ****         ****
+Adress: Damascus - Syria                                                          *************   **********   ****         ****        ****         ****
+Phone: +963-(931)-600395                                                          ****     ****   ****         ****         ****        ****         ****
+Themeforest Account: themeforest.net/user/tiequde                                 ****     ****   ****         ****         ****         ****       ****
+Theme Version: 1.0                                                                ****     ****   **********   **********   **********    *************
+Primary Use: template, landing page, business, tech, ...etc                       ****     ****   **********   **********   **********      *********
+                                                                                                          
+*********************************************************************************************************************************************************
+
+THE TABLE OF CONTENTS
+=====================
+
+[1] Page Loader                        *    [4] Features Section             *    [7] Latest Blog Section           *         [10.2] Contact Form
+                                       *                                     *                                      *         [10.3] Our Location Map
+[2] Intro Section                      *        [4.1] Features Image         *    [8] Get Free Quote                *  
+                                       *        [4.2] Main Features          *                                      *     [11] Footer
+    [2.1] Intro Fixed Slider           *                                     *        [8.1] Quote Feature Image     *
+    [2.2] Intro Text                   *    [5] Our Projects Section         *        [8.2] Get Quote Form          *
+                                       *                                     *                                      *
+[3] About Us Section                   *    [6] Pricing Table Section        *    [9] Cutomers Reviews              *
+                                       *                                     *                                      *
+    [3.1] What Can Sass Do             *        [6.1] Pricing Info           *    [10] Contact Us Section           *
+    [3.2] Feature Image For About Us   *        [6.2] Pricing Tables         *                                      *
+    [3.3] More About Us                *                                     *        [10.1] Contact Information    *
+
+*********************************************************************************************************************************************************/
+
+/* Start Reset Everything & General Style */
+* { padding: 0; margin: 0; font-family: "Roboto", sans-serif, Arial, Tahoma; box-sizing: border-box; }
+a, a:hover, a:visited, a:focus { text-decoration: none; }
+img { width: 100%; height: auto; }
+
+/* Transition */
+.transition { transition: all .3s ease-in-out; }
+
+/* Centering Items */
+.centering { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+
+/* Uppercase Text */
+.uppercase { text-transform: uppercase; }
+
+/* Overlay */
+.overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, .6); z-index: 1; }
+
+/* White Spacing */
+section { padding: 70px 0; }
+.container { padding: 0 50px; }
+
+/* Title */
+.section-title { font-weight: 300; margin-bottom: 30px; margin-top: 0; }
+.section-title b { font-weight: 400; }
+
+/* Paragraph */
+p { font-size: 13px; color: #7B7B7B; }
+
+/* Buttons */
+button { padding: 10px 20px; background-color: #3498DB; border: none; outline: none; border-radius: 20px; font-weight: 100; font-size: 13px; margin-top: 20px; }
+button i { margin-left: 5px; }
+/* End Reset Everything & General Style */
+
+/* Start Main Navbar */
+.navbar { background-color: transparent; border: none; padding: 10px 0 0; margin-bottom: 0; position: fixed; left: 50%; transform: translateX(-50%); z-index: 99999; transition: height .3s ease-in-out; }
+.navbar .container { padding: 0 50px; height: 100%; }
+.navbar .container .inner-navbar { padding-bottom: 5px; }
+.navbar .navbar-header .navbar-brand { color: #FFF; font-size: 60px; font-weight: 900; letter-spacing: 1px; padding: 0 15px; }
+.navbar .navbar-nav li:last-of-type a { padding-right: 0; }
+.navbar .navbar-nav li a { color: #FFF; font-size: 11px; letter-spacing: .5px; }
+.navbar .navbar-nav li a:hover { color: #FFF; }
+
+.navbar-fixed-style { width: 100%; border-radius: 0; height: 60px; padding: 0; background: #FFF; box-shadow: 0 0 10px rgba( 0, 0, 0, .3 ); transition: all .3s ease; }
+.navbar-fixed-style .container .inner-navbar { height: 100%; padding: 0; border-bottom: 0; }
+.navbar-fixed-style .navbar-header .navbar-brand { height: 100%; line-height: 60px; padding: 0 15px; color: #3498DB; }
+.navbar-fixed-style .navbar-right { height: 60px; }
+.navbar-fixed-style .navbar-right li { height: 100%; }
+.navbar-fixed-style .navbar-right li a { height: 100%; padding: 0 15px; line-height: 60px; color: #182D37; }
+.navbar-fixed-style .navbar-nav li a.active, .navbar-fixed-style .navbar-right li a:hover { color: #3498DB; }
+/* End Main Navbar */
+
+/* Start Intro Section */
+.intro { width: 100%; height: 100vh; position: relative; overflow: hidden; padding: 0; }
+.intro .owl-theme { transform: scale(1.1); }
+.intro .owl-theme .item img { filter: blur(10px); height: 100vh!important; }
+.intro .overlay .intro-text { color: #FFF; }
+.intro .overlay .intro-text h2, .intro .overlay .intro-text p { font-weight: 100; color: #FFF; }
+.intro .overlay .intro-text h1 { font-size: 72px; font-weight: 700; margin-top: 0; }
+/* End Intro Section */
+
+/* Start About Section */
+.about { overflow: hidden; }
+.about .container { padding: 0 50px; transform: translateX(4.16%); }
+.about .item { padding: 0; }
+.about .item img { max-width: 80px; }
+.about .item h4 { font-size: 16px; }
+/* End About Section */
+
+/* Start More About Us Section */
+.more-about-us { background-color: #FAFAFA; border-top: 1px solid #EEE; border-bottom: 1px solid #EEE; position: relative; overflow: hidden; }
+.more-about-us .image { position: static; }
+.more-about-us .image img { position: absolute; top: 0; left: 0; width: 50%; }
+.more-about-us .more-about p { letter-spacing: .5px; line-height: 1.6; margin-bottom: 30px; }
+.more-about-us .more-about .main-title { font-size: 50px; color: #DDD; font-weight: 900; display: inline-block; letter-spacing: 1px; }
+.more-about-us .more-about .main-title::after { content: ''; width: 85px; height: 8px; background-color: #DDD; display: block; }
+.more-about-us .more-about ul li { display: inline-block; margin-right: 30px; }
+.more-about-us .more-about ul li h2 { font-weight: 400; font-family: sans-serif; }
+.more-about-us .more-about ul li h5 { font-size: 13px; color: #7B7B7B; }
+.more-about-us .more-about ul li h5::after { content: ''; width: 30px; height: 2px; background-color: #3498DB; display: block; margin-top: 10px; }
+.more-about-us .more-about ul li:nth-of-type(2) h5::after { background-color: #FFA672; }
+.more-about-us .more-about ul li:last-of-type h5::after { background-color: #2ECC71; }
+/* End More About Us Section */
+
+/* Start Features Section */
+.features { border-bottom: 1px solid #EEE; position: relative; overflow: hidden; }
+.features .features-text .section-title { margin-bottom: 15px; }
+.features .features-text ul li { margin-top: 50px; }
+.features .features-text ul li:last-of-type { margin-bottom: 40px; }
+.features .features-text ul li .number { width: 40px; display: inline-block; height: 40px; text-align: center; line-height: 40px; background-color: #EDEDED; border-radius: 50%; margin-right: 15px; float: left; color: #7b7b7b; }
+.features .features-text ul li .text { font-size: 13px; color: #7B7B7B; }
+.features .features-text button:first-of-type { color: #FFF; background-color: #FFA672; box-shadow: -3px 3px 15px #FFA6729C; }
+.features .features-text button:last-of-type { background-color: transparent; color: #3498DB; font-weight: 400; margin-left: 15px; }
+.features .image { position: static; }
+.features .image img { position: absolute; top: 0; right: 0; width: 50%; }
+/* End Features Section */
+
+/* Start Our Projects */
+.our-projects .nav-tabs { border: none; display: inline-block; }
+.our-projects .nav-tabs > li > a, .our-projects .nav-tabs > li > a, .our-projects .nav-tabs > li > a, .our-projects .nav-tabs > li > a:hover, .our-projects .nav > li > a:focus, .our-projects .nav > li > a:hover { border: none; color: #8A8A8A; border-bottom: 2px solid transparent; background-color: transparent; padding: 5px 0; margin: 0 12px 30px; } 
+.our-projects .nav-tabs > li.active > a, .our-projects .nav-tabs > li.active > a:focus, .our-projects .nav-tabs > li.active > a:hover {  border: none; border-bottom: 2px solid #3498DB; color: #3498DB; }
+.our-projects .tab-content .item img { margin-bottom: 20px; }
+/* End Our Projects */
+
+/* Start Our Pricing Table */
+.pricing { background-image: url('../img/pricing-background.png'); background-size: 95% auto; background-repeat: no-repeat; }
+.pricing .text, .pricing .text p { color: #FFF; }
+.pricing .text .section-title { margin-bottom: 15px; }
+.pricing .text ul li { margin-top: 50px; }
+.pricing .text ul li:last-of-type { margin-bottom: 40px; }
+.pricing .text ul li .number { width: 40px; display: inline-block; height: 40px; text-align: center; line-height: 40px; border-radius: 50%; margin-right: 25px; float: left; color: #FFF; font-size: 42px; }
+.pricing .text ul li .text { color: #FFF; }
+.pricing .the-table { margin-bottom: 20px; }
+.pricing .the-table .inner { background-color: #FFF; padding: 30px; border-radius: 4px; box-shadow: 0 0 100px #AAAAAA90; }
+.pricing .the-table .inner h5 { font-size: 13px; color: #7B7B7B; margin-bottom: 30px; }
+.pricing .the-table .inner ul li { margin-bottom: 10px; color: #7b7b7b; }
+.pricing .the-table .inner ul li i { margin-right: 10px; color: #3498DB; }
+.pricing .the-table.pro-table { padding: 0; }
+.pricing .the-table.normal-table { padding: 30px 0; }
+.pricing .the-table.normal-table .inner { padding-left: 50px; border-top-left-radius: 0; border-bottom-left-radius: 0; }
+.pricing .the-table .inner button { color: #FFF; background-color: #FFA672; box-shadow: -3px 3px 15px #FFA6729C; margin-bottom: 15px; }
+.pricing .the-table.normal-table .inner button { background-color: #8582ed; box-shadow: -3px 3px 15px #8582ed9C; }
+/* End Our Pricing Table */
+
+/* Start Our Team Section */
+.our-team { background-color: #FAFAFA; border-top: 1px solid #EEE; border-bottom: 1px solid #EEE; position: relative; overflow: hidden; }
+.our-team .container .row .team-member .inner { padding: 30px 15px; background-color: #FFF; border-radius: 4px; box-shadow: 0 0 70px #AAAAAA60; cursor: pointer; }
+.our-team .container .row .team-member .inner img { border-radius: 50%; max-width: 80px; margin-bottom: 15px; }
+.our-team .container .row .team-member .inner h5 { text-transform: capitalize; }
+.our-team .container .row .team-member .inner p { margin-bottom: 0; }
+.our-team .container .row .team-member:hover .inner { transform: scale(1.1); }
+/* End Our Team Section */
+
+/* Start Blog Section */
+.blog { padding-bottom: 20px; }
+.blog .container .item .caption { background-color: #FFF; box-shadow: 0 0 70px #AAAAAA60; width: 90%; position: relative; left: 50%; transform: translateX(-50%); padding: 30px; top: -50px; cursor: pointer; overflow: hidden; }
+.blog .container .item .caption p { margin-bottom: 30px; }
+.blog .container .item .caption a { font-size: 13px; float: left; }
+.blog .container .item .caption span { font-size: 13px; color: #7B7B7B; float: right; }
+/* End Blog Section */
+
+/* Start Quote Section */
+.quotes { background-color: #8582ED; color: #FFF; position: relative; overflow: hidden; }
+.quotes .image { position: static; }
+.quotes .image img { position: absolute; top: 0; left: 0; width: 50%; }
+.quotes form input { line-height: normal; display: block; width: 70%; margin-bottom: 15px; padding: 10px 0; border: none; outline: none; background-color: transparent; color: #FFF; border-bottom: 1px solid #A9A9F3; font-size: 13px!important; transition: all .3s ease-in-out; }
+.quotes form input::-webkit-input-placeholder { color: #FFF; font-weight: 300; }
+.quotes form input:focus { border-color: #FFF; }
+.quotes form input[name="website"] { margin-bottom: 50px; }
+.quotes form input[type="submit"] { padding: 12px 36px; background-color: #FFA672; border: none; outline: none; border-radius: 20px; font-weight: 100; font-size: 13px; margin-top: 20px; width: auto; }
+/* End Quote Section */
+
+/* Start Testimonials Section */
+.testimonials { border-bottom: 1px solid #EEE; }
+.testimonials .item .image img { border-radius: 50%; max-width: 100px; margin-bottom: 30px; }
+.testimonials .item p { width: 70%; margin: 0 auto;  margin-bottom: 30px; line-height: 1.5; }
+.testimonials .item .meta .name { font-size: 18px; }
+.testimonials .item .meta span { color: #7B7B7B; font-size: 12px; }
+.testimonials .owl-pagination { text-align: center; }
+.testimonials .owl-pagination .owl-page { display: inline-block; width: 10px; height: 10px; border: 1px solid #FFF; margin-right: 5px; border-radius: 50%; transition: all .3s ease; }
+.testimonials .owl-pagination .owl-page span { width: 8px; height: 8px; }
+.testimonials .owl-pagination .owl-page.active { background: #FFF; }
+/* End Testimonials Section */
+
+/* Start Contact Us Section */
+.contact { padding-bottom: 0; }
+.contact .contact-info h4 { color: #FFA672; font-size: 16px; font-weight: 400; }
+.contact .contact-info p { margin-bottom: 30px; }
+.contact form input, .contact form textarea { width: 48%; margin-bottom: 15px; padding: 10px 0; border: none; outline: none; background-color: transparent; border-bottom: 1px solid #DDD; font-size: 13px!important; transition: all .3s ease-in-out; }
+.contact form input::-webkit-input-placeholder { font-weight: 300; }
+.contact form input:focus, .contact form textarea:focus { border-color: #ABABAB; }
+.contact form textarea { width: 100%; margin-bottom: 25px; resize: none; height: 120px; }
+.contact form input[name="first-name"], .contact form input[name="email"] { float: left; }
+.contact form input[name="last-name"], .contact form input[name="phone"] { float: right; }
+.contact form button { color: #FFF; float: left; background-color: #FFA672; box-shadow: -3px 3px 15px #FFA6729C; margin-bottom: 85px;}
+.contact .map { border-top: 1px solid #EEE; height: 0; position: relative; }
+.contact .opening { height: 350px; }
+.contact .map i { display: inline-block; width: 30px; height: 30px; line-height: 32px; text-align: center; color: #FFF; background-color: #FFA672; border-radius: 50%; cursor: pointer; position: absolute; top: -15px; font-size: 13px; left: 50%; transform: translateX(-50%); }
+.contact .map i.open { transform: rotate(180deg) translateX(15px); }
+.contact .map iframe { border: none; width: 100%; height: 100%; }
+/* Start Contact Us Section */
+
+/* Start Footer */
+footer { background-color: #182D37; color: #FFF; padding: 50px 0; }
+footer .coyright i { font-size: 60px; line-height: .8; }
+footer .coyright a { color: #FFF; }
+footer .coyright a:hover { text-decoration: underline; }
+footer .coyright p { margin-bottom: 0; }
+/* End Footer */

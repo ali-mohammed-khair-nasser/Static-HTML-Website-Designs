@@ -1,0 +1,47 @@
+/* Start Medium Screen Style */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .pricing { background-color: #8582ed; }
+
+    .intro .overlay .intro-text { width: 60%!important; }
+    
+}
+/* End Medium Screen Style */
+
+/* Start Medium Screen Style */
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.navbar .container { padding: 0 36px; }
+
+	.intro .overlay .intro-text { width: 70%!important; }
+
+    .pricing { background-color: #8582ed; }
+}
+/* End Medium Screen Style */
+
+/* Start Small Screen Style */
+@media (max-width: 767px) {
+
+    .navbar { width: 100%; }
+    .navbar-default .navbar-toggle, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover { border: none; background: transparent; font-size: 20px; padding: 0; margin: 0; color: #FFF; line-height: 60px; }
+    .navbar-fixed-style .navbar-toggle, .navbar-fixed-style .navbar-toggle:focus, .navbar-fixed-style .navbar-toggle:hover { color: #3498DB; }
+    .navbar-collapse { border: none; background-color: rgba(0, 0 , 0, .9); text-align: center; width: 100%; position: absolute; left: 0; }
+    .navbar .navbar-header .navbar-brand { font-size: 48px; line-height: 60px; }
+    .navbar-fixed-style .navbar-right, .navbar .navbar-right { height: auto; }
+    .navbar-fixed-style .navbar-right li a, .navbar .navbar-right li a { height: 100%; padding: 0 15px; line-height: 60px; color: #FFF; }
+	.navbar-fixed-style .navbar-nav li a.active, .navbar-fixed-style .navbar-right li a:hover, .navbar .navbar-nav li a.active, .navbar .navbar-right li a:hover { color: #3498DB; }
+
+    .intro .overlay .intro-text { width: 85%!important; }
+	.intro .overlay .intro-text h2 { font-size: 25px; }
+	.intro .overlay .intro-text h1 { font-size: 65px; }
+
+	.about .container { transform: translateX(0); }
+	.about .item { margin-bottom: 30px; }
+	.about .item p { width: 60%; margin: auto; }
+    
+}
+/* End Small Screen Style */
+
+@media (max-width: 300px) {
+	.about .item p { width: 100%; }
+}
