@@ -1,0 +1,79 @@
+/* Start Medium Screen Style */
+@media (min-width: 768px) and (max-width: 992px) {
+
+	/* Sidebar */
+    .sidebar .widget.ads img { width: 100% !important; }
+
+    /* Post Format */
+    .normal-post { margin-bottom: 60px; }
+    .no-image-full { margin-bottom: 30px; text-align: left; }
+    .normal-post .post-image .overlay i { font-size: 36px; }
+
+}
+/* End Medium Screen Style */
+
+/* Start Small Screen Style */
+@media (max-width: 767px) {
+
+	/* Top Navabar */
+    header .top-nav .right-side { float: none; position: relative; left: 50%; transform: translateX(-50%); }
+
+    /* Start Main Navbar */
+    header .main-nav .open-menu { text-align: center; font-size: 17px; display: block; cursor: pointer; }   
+    header .main-nav ul { background: #222; padding: 20px 0; display: none; transition-duration: 0s!important; position: absolute; z-index: 9; width: 100%; }
+    header .main-nav ul li { display: block; text-align: left; }
+    header .main-nav ul li a { line-height: 40px; color: #EEE!important; font-size: 11px; position: relative; }
+    header .main-nav ul li a i { display: none; }
+    header .main-nav ul li.sub::before { content: "\f078"; cursor: pointer; font-family: FontAwesome; position: absolute; right: 0; top: 0; line-height: 40px; text-align: center; width: 25px; padding: 0; color: #FFF!important; font-size: 10px; z-index: 5; }
+    header .main-nav ul li.sub.minus::before { content: "\f077"; }
+    header .main-nav ul li ul { position: static; visibility: visible; opacity: 1; width: 100%; padding: 0; background: #111; padding-left: 20px; }
+    header .main-nav ul li ul.submenu1 li a { padding: 0; }
+    header .main-nav ul li ul li ul { padding: 0 0 0 20px; background: #050505; }
+    /* End Main Navbar */
+
+    /* Post Format */
+    .normal-post { margin-bottom: 60px; }
+    .no-image-full { margin-bottom: 30px; text-align: left; }
+    .large-post .post-details { top: 50%; transform: translateY(-50%); padding: 0; bottom: auto; }
+    .normal-audio-post .post-details { position: absolute; }
+    .large-post .post-details .post-date { margin-bottom: 0; }
+    .gellary-post .owl-theme .owl-controls { display: none!important; }
+    .normal-post .post-image .overlay i { font-size: 36px; }
+    .quote-post .post-details, .no-image .post-details { padding: 40px; left: 50%; transform: translate(-50%, -50%);}
+    .large-post .post-details p, .large-post .post-details button { display: none; }
+    .no-image .post-details p, .no-image .post-details button { display: inline-block; }
+    .large-post .post-image .overlay-right { text-align: center; }
+    .large-post .overlay-right .post-details { top: 50%; padding: 15px; }
+
+    /* Instagram Area */
+    .instagram-gallery ul li { width: 33.333332% }
+
+    /* Sidebar */
+    .sidebar .widget.ads img { width: 100% !important; }
+
+    /* Post */
+    .post .the-post .first span { display: block; }
+    .post .the-post .first ul li a i { width: 40px; }
+    .post .the-post ul li:first-of-type, .post .the-post .first ul { padding-left: 0; }
+
+    /* Post Paragraph & Image */
+	.post .img-p .other-image, .post .img-p .about-img  { padding: 0; }
+    .post .img-p .other-image img { margin-bottom: 30px; }
+
+    /* About Author */
+    .about-author .media-left { display: block; }
+    .about-author .media-left img { margin-bottom: 15px; }
+
+    /* Leave Your Comments */
+    .leave-comments input { width: 100%; margin-bottom: 20px; }
+    .leave-comments textarea { margin-top: 0; }
+
+    /* Error Page */
+    .error h1 { font-size: 10em; }
+
+}
+/* End Small Screen Style */
+
+/* Start Other Devices Media */
+@media (min-width: 480px) and (max-width: 785px) { .slide .owl-item { width: 100% !important; } }
+/* End Other Devices Media */
