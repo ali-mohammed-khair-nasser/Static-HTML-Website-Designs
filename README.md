@@ -17,7 +17,7 @@ This is a collection of free landing pages and blog templates designed by me. It
 - Used free google fonts like Roboto and Raliway.
 - All files are well commented.
 - Built with Bootstrap version (3.3.7).
-- **100% Fully Responsive Design and Layout and Mobile Friendly.**
+- 100% Fully Responsive Design and Layout and Mobile Friendly.
 - Main Carousel Slider Widget.
 - jQuery and CSS3 effects.
 - Drop-downs and menus are optimized for mobile devices.
