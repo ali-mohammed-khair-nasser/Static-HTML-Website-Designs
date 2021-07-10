@@ -1,0 +1,127 @@
+/* Start Medium Screen Style */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* Container Fluid */
+    .container { padding: 0 15px; }
+
+	/* Intro Area */
+	.intro-area .overlay .intro-welcome h1 { line-height: 1.1; }
+
+    /* Navbar Links */
+    .navbar .container .nav li > a { padding: 0 11px; }
+
+    /* About Area */
+    .about-us .about-area .tab-content .tab-pane .thumbnail { margin-bottom: 10px; }
+
+    /* Our Work */
+    .our-work .work-item { height: auto; }
+
+    /* Pricing Table */
+    .pricing .container .pricing-table { margin-bottom: 0; }
+
+    /* Our Team */
+    .our-team .team { padding: 0 15px; }
+
+    /* Contact Us */
+    .contact-us .form .contact-form { width: 100%; }
+
+    /* Footer */
+    .main-footer .about > a > h4 { font-size: 2.5em; }
+
+}
+/* End Medium Screen Style */
+
+/* Start Small Screen Style */
+@media (max-width: 767px) {
+
+    /* Start Global Style */
+    .container { padding: 0 15px; }
+    .buttons button { margin: 5px; }
+    .navbar-default .navbar-toggle { margin-right: 0; }
+    /* End Global Style */
+
+	/* Start Intro Area */
+    .intro-area .overlay .intro-welcome { width: 100%; padding: 0 15px; }
+	.intro-area .overlay .intro-welcome h5 { font-size: 1em; line-height: 1.5; }
+    .intro-area .overlay .intro-welcome h1 { font-size: 2.2em; line-height: 1.5; }
+    .intro-area .overlay .intro-welcome h6 { font-size: .85em; line-height: 1.5; margin-bottom: 30px; }
+    /* End Intro Area */
+
+    /* Start Navbar */
+    .navbar-default .navbar-collapse { margin: 0; width: 100%; padding: 0; position: absolute; left: 0; }
+
+	/* Navbar Links Menu */
+	.navbar .nav { margin: 0; background: #EEE url(""); }
+	.navbar .nav li { float: none; text-align: center; border-bottom: 1px solid #DDD; }
+
+	.navbar .container .nav li > a:hover,
+	.navbar .container .nav li > .active { background-color: transparent; color: #1D93E5 !important; }
+    /* End Navbar */
+
+    /* Start Features */
+    .theme-features > .container > .row > div > .feature:last-of-type { padding-bottom: 0; }
+    .theme-features > .container > .row > div > .feature { text-align: center; }
+    .theme-features > .container > .row > div > .feature p { text-align: center; }
+    .theme-features > .container > .row > div > .feature p:last-of-type { margin-bottom: 0; }
+    .theme-features > .container > .row > div > .feature i { display: none; }
+    /* End Features */
+    
+    /* Start About Area */
+    .about-us { text-align: center; }
+    .about-us .about-area, .about-us .responsive-photo { padding-right: 0; }
+    .about-us .about-area .nav-tabs { display: -webkit-inline-box; }
+    
+    .about-us .about-area .tab-content .tab-pane,
+    .about-us .about-area .tab-content .tab-pane p { text-align: center; padding: 0 20px; }
+    .about-us .about-area .tab-content .tab-pane .thumbnail { margin: 5px; }
+    .about-us .about-area .tab-content .tab-pane .progress { width: 100%; }
+    /* End About Area */
+
+    /* Start Our Work */
+    .our-work > .container { overflow: hidden; }
+    .our-work .container .buttons button { margin-bottom: 20px; }
+    .our-work .nav-tabs { margin: 20px 0 30px; }
+    .our-work .nav-tabs > li { padding: 2vw 1.2vw; }
+    .our-work .work-item { margin-bottom: 10px; height: auto; }
+    /* End Our Work */
+
+    /* Pricing Table */
+    .pricing .pricing-table { margin-bottom: 20px; }
+
+    /* Start Testimonials */
+    .testimonials { height: auto; }
+    .testimonials .carousel-indicators { bottom: -10px; }
+    /* End Testimonials */
+
+    /* Start Our Team */
+    .our-team .team { margin-bottom: 20px; }
+    .our-team .team:last-of-type { margin-bottom: 0; }
+    /* End Our Team */
+
+    /* Start Purchase Now Area */
+    .purchase .overlay h3 { font-size: 1.3em; line-height: 1.5; }
+    .purchase .overlay h6 { margin-bottom: 20px; padding: 0 5px; line-height: 1.5; }
+    /* End Purchase Now Area */
+
+    /* Start Contact Us */
+    .contact-us, .contact-us div { padding-top: 0; }
+    .contact-us, .contact-us .map { padding: 0; }
+	.contact-us .form { text-align: center; padding: 50px 15px; }
+	.contact-us .form .contact-form { width: 100%; }
+	.contact-us .form .contact-form * { text-align: center; }
+	/* End Contact Us */
+
+	/* Start Footer */
+    .main-footer .container .row > div { margin-bottom: 40px; }
+    .main-footer .container .row > div:last-of-type { margin-bottom: 0; }
+	.main-footer .recent-posts .media { text-align: left; }
+	.main-footer .follow { padding-bottom: 20px; border-bottom: 1px solid rgba(21, 65, 84, .6); }
+	.main-footer .container .about .border-bottom { padding-top: 15px; border-bottom: 1px solid rgba(21, 65, 84, .6); }
+    .categories { margin-bottom: 40px; }
+    .copyright { padding: 20px 15px; line-height: 18px; }
+	/* End Footer */
+    
+}
+
+@media (max-width: 320px) { .our-work .nav-tabs > li { font-size: .7em; } }
+/* End Small Screen Style */
