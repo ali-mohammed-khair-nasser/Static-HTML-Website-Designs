@@ -1,0 +1,51 @@
+/* Start Medium Screen Style */
+@media (max-width: 992px) {
+
+	/* Paragraph */
+	p { width: 100% !important; }
+
+	/* Date Inside */
+	.date .overlay .about-date .inside { font-size: 2em; }
+
+	/* Contact Us */
+	.contact .container .massage .inputing { width: 100%; }
+
+}
+/* End Medium Screen Style */
+
+/* Start Small Screen Style */
+@media (max-width: 768px) {
+
+	/* Start Intro */
+	.intro .intro-info h1 { font-size: 5em; }
+	.intro .intro-info h3 { font-size: 20px; } 
+	.intro .intro-info h3:before, .intro .intro-info h3:after { width: 50px; }
+	/* End Intro */
+
+	/* Date */
+	.date .overlay .about-date { margin-bottom: 30px; }
+
+	/* Start Date & Location */
+	.location .info .information { text-align: center; }
+	.location .info span { float: none; }
+	.location .info .icon { display: -webkit-inline-box; }
+	.location .info i { margin: 0; }
+	.location .info .icon { width: auto; }
+	/* End Date & Location */
+    
+}
+/* End Small Screen Style */
+
+/* Start Exstra Small Screen Style */
+@media (max-width: 400px) {
+
+	/* Start Intro */
+	.intro .intro-info h1 span { display: block; margin: 40px 0; }
+	.intro .intro-info h3:before, .intro .intro-info h3:after { width: 20px; }
+	/* End Intro */
+
+	/* Date */
+	.date .overlay .about-date { width: 100%; }
+    
+}
+/* End Exstra Small Screen Style */

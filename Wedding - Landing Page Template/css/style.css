@@ -1,0 +1,124 @@
+/********************************************************************************************************************************************************
+
+WEDDING HTML5 TEMPLATE THEME                                                      ****     ****   **********   ****         ****            *********
+============================                                                      ****     ****   **********   ****         ****          *************
+                                                                                  ****     ****   ****         ****         ****         ****       ****
+Author : TIEQUDE TEAM                                                             ****     ****   ****         ****         ****        ****         ****
+Website: www.tiequde.com                                                          *************   **********   ****         ****        ****         ****
+Adress: Damascus - Syria                                                          *************   **********   ****         ****        ****         ****
+Phone: +963-(931)-600395                                                          ****     ****   ****         ****         ****        ****         ****
+Themeforest Account: themeforest.net/user/tiequde                                 ****     ****   ****         ****         ****         ****       ****
+Theme Version: 1.0                                                                ****     ****   **********   **********   **********    *************
+Primary Use: Wedding                                                              ****     ****   **********   **********   **********      *********
+                                                                                                          
+*********************************************************************************************************************************************************
+
+THE TABLE OF THEME CONTENTS
+===========================
+
+[1] Page Loader                  *    [5] Wedding & Reception Location
+                                 *
+[2] Intro Section                * 	  	  [5.1] Map Of Location   
+								 *        [5.2] Location Details
+[3] About Bridge & Groom         *
+	                             *    [6] Wishes From Friends 	  	  
+	[3.1] About Groom & Bridge   * 
+	[3.2] Preview Image          *	  [7] Contact Section 
+	                             *
+[4] Date Of Wedding              *    [8] Footer & Copyright
+                                 *    
+
+*********************************************************************************************************************************************************/
+
+/* Start Reset Everything And Global Style */
+* { padding: 0; margin: 0; font-family: 'Raleway', sans-serif, Arial, Tahoma; box-sizing: border-box; }
+.centreing { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+.overlay { width: 100%; height: 100%; position: absolute; top: 0; left: 0; background-color: rgba(0, 0, 0, .3); }
+.transition { transition: all .3s ease-in-out; }
+.text-shadow { text-shadow: 1px 1px 0 #444; }
+section { padding: 50px 0; }
+.container { padding: 0 50px; }
+.title { text-transform: capitalize; font-weight: 600; color: #FE1584; margin-bottom: 20px; letter-spacing: .5px; font-style: italic; font-family: serif; }
+.inverse * { color: #FFF; }
+.underline { width: 75px; height: 1px; margin-bottom: 25px; background: #B1BECE; display: inline-block; }
+p { width: 70%; margin: auto; color: #777; font-size: 13px; margin-bottom: 50px; }
+/* End Reset Everything And Global Style */
+
+/* Start Page Loader */
+.loader { position: fixed; z-index: 999; top: 0; left: 0; width: 100%; height: 100vh; background-image: url('../img/background.png'); background-size: cover; background-color: #FFF; }
+/* End Page Loader */
+
+/* Start Intro */
+.intro { width: 100%; height: 100vh; overflow: hidden; padding: 0; }
+.intro .background { height: 100%; background-image: url('../img/intro.jpeg'); background-size: cover; filter: blur(4px); transform: scale(1.1, 1.1); background-position: center; }
+.intro .intro-info { width: 100%; }
+.intro .intro-info h1 { color: #FFF; font-size: 8em; font-style: italic; font-family: serif; font-weight: 600; line-height: .6; }
+.intro .intro-info h1 span { color: #FE1584; font-family: serif; }
+.intro .intro-info h3, .intro .intro-info h5 { color: #FFF; letter-spacing: .5px; font-style: italic; font-family: serif; font-weight: 400; }
+.intro .intro-info h3:before,
+.intro .intro-info h3:after { content: ""; width: 75px; height: 2px; background: #FE1584; display: inline-block; margin: 0 15px; position: relative; top: -4px; transition: all .3s ease-in-out; }
+.intro .intro-info h5 { font-family: Arial; margin-top: 20px; letter-spacing: 2px; }
+/* End Intro */
+
+/* Start About Bridge & Groom  */
+.about .about-img .owl-carousel .owl-wrapper-outer { overflow: hidden; border-radius: 50%; border: 10px solid rgba(254, 21, 132, .25); }
+.about .container .about-us .title { font-size: 20px; margin-bottom: 0; color: #333; font-style: normal; }
+.about .container .about-us .underline { width: 40px; margin: 0; }
+.about .container .about-us h6 { font-weight: 600; color: #FE1584; }
+.about .container .about-us p { width: 100%; margin: 30px 0; }
+/* End About Bridge & Groom  */ 
+
+/* Start Wedding Date */
+.date { position: relative; padding: 0; }
+.date .overlay { background-color: rgba(0, 0, 0, .8); padding: 50px 0; position: relative; }
+.date .overlay p { width: 70%; }
+.date .overlay .about-date .inside { background-color: rgba(140, 140, 140, .2); height: 100%; border-radius: 50%; margin-bottom: 15px; font-size: 3em; font-family: Arial; color: #DDD; }
+.date .overlay .about-date { font-size: 16px; text-transform: uppercase; font-weight: 600; letter-spacing: .3px; color: #DDD; }
+/* End Wedding Date */
+
+/* Start Wedding Location */
+.location .map .inside { border: 10px solid rgba(254, 21, 132, .25); border-radius: 50%; overflow: hidden; }
+.location .map .inside iframe { width: 100%; height: 100%; border: none; }
+.location .info { padding-top: 30px; }
+.location .info .information { margin-bottom: 50px; overflow: hidden; }
+.location .info .information:last-of-type { margin-bottom: 0; }
+.location .info h5 { line-height: 1.5; text-transform: uppercase; letter-spacing: .5px; word-spacing: 5px; font-weight: 700; }
+.location .info .icon { width: 50px; text-align: right; }
+.location .info .about-icon { display: inline-block; }
+.location .info i { font-size: 3em; margin-right: 20px; color: #FE1584; }
+.location .info span { float: left; display: block; }
+.location .info ul li { line-height: 30px; font-size: 13px; color: #777; }
+/* End Wedding Location */
+
+/* Start Wishes from Friends */ 
+.wishes { position: relative; overflow: hidden; padding: 0; }
+.wishes .overlay { background-color: rgba(0, 0, 0, .8); padding: 50px 0; position: relative; }
+.wishes .overlay p { margin-bottom: 25px; }
+.wishes .overlay #wishes-slider .item { position: relative; }
+.wishes .overlay .friend-photo { background-color: rgba(140, 140, 140, .2); border-radius: 50%; margin-bottom: 15px; margin-top: 15px; width: 130px; height: 130px; display: -webkit-inline-box; }
+.wishes .overlay .owl-theme .owl-controls .owl-page.active span, .wishes .overlay .owl-theme .owl-controls.clickable .owl-page:hover span { background-color: #DDD; }
+/* End Wishes from Friends */
+
+/* Start Contact Us */
+.contact, .contact .container { padding-bottom: 0; }
+.contact .container .massage { padding: 15px 0; }
+.contact .container .massage .inputing { border-left: 3px solid #FE1584; margin-bottom: 15px; width: 70%; }
+.contact .container .massage .inputing input { width: 100%; padding: 7px 10px; border: none; border: 1px solid #EEE; font-size: 12px; outline: none; }
+.contact .container .massage .inputing textarea { padding: 7px 10px; width: 100%; height: 150px; resize: none; border: none; border: 1px solid #EEE; font-size: 12px; outline: none; margin-bottom: -5px; }
+.contact .container .massage button { padding: 7px 25px; background-color: #FE1584; border: none; color: #FFF; outline: none; font-size: 12px; margin-bottom: 30px; }
+/* End Contact Us */
+
+/* Start Footer */
+footer { background: #333; padding: 30px 0; }
+footer .social-icons ul { margin: 0; }
+footer .social-icons ul li { display: inline-block; margin-right: 15px; }
+footer .social-icons ul li:last-of-type { margin-right: 0; }
+footer .social-icons ul li a { color: #999; font-size: 22px; }
+footer .social-icons ul li a:hover { color: #FFF; }
+footer .copyright { color: #BBB; text-transform: capitalize; font-size: 12px; margin-top: 15px; }
+footer .copyright a { color: #FFF; }
+/* End Footer */
+
+/* Start Go To Top */
+.go-to-top { width: 30px; height: 30px; line-height: 30px; color: #FFF; background-color: #FE1584; position: fixed; bottom: 30px; right: 30px; border-radius: 50%; cursor: pointer; display: none; }
+/* End Go To Top */
