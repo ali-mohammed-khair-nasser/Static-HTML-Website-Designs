@@ -7,7 +7,7 @@ Click on the theme name to see the live preview
 - [Canox](https://ali-mohamed-nasser.github.io/Static-HTML-Website-Designs/Canox%20-%20Blog%20Template%20Theme/index.html): Modern and professional blog theme for making a professional blogging website.
 - [Konish](https://ali-mohamed-nasser.github.io/Static-HTML-Website-Designs/Konish%20-%20Company%20Landing%20Page%20Template/index.html): Beautiful landing page for technical company.
 - [Sass](https://ali-mohamed-nasser.github.io/Static-HTML-Website-Designs/Sass%20-%20Company%20Landing%20Page%20Template/index.html): Another landing page for a company.
-- [Sellvas](https://ali-mohamed-nasser.github.io/Static-HTML-Website-Designs/Sellvas%20-%20Blog%20%26%20Magazine%20Template%20Theme/landing%20page.html): Magazine & blog tempate theme in elegant and clean design magazine & blog theme. Paked with everything you need to set up a beautiful blog & photo gallery, it's modern minimalistic design, easy to maintenance and impeccable polish in every detail with friendly support.
+- [Sellvas](https://ali-mohamed-nasser.github.io/Static-HTML-Website-Designs/Sellvas%20-%20Blog%20%26%20Magazine%20Template%20Theme/landing%20page.html): Magazine & blog tempate theme in elegant and clean design magazine & blog theme. Paked with everything you need to set up a beautiful blog & photo gallery, it's modern minimalistic design, easy to maintenance and impeccable polish in every detail with friendly support. And this theme contains more than 10+ layout variations and many post and error pages styles to match every style of the design.
 - [Wedding](https://ali-mohamed-nasser.github.io/Static-HTML-Website-Designs/Wedding%20-%20Landing%20Page%20Template/index.html): A modern landing page for wedding event.
 
 # About These Themes
