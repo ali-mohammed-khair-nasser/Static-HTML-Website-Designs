@@ -1,0 +1,156 @@
+/* Start larg Screen Style */
+@media (max-width: 1199px) {
+    
+    /* Resize The Navbar Links When Have A Medium Screen Or Smaller */
+    .navbar-default .navbar-collapse .nav > li > a { padding: 15px 10px; line-height: 19px; }
+
+    /* Footer */
+    .footer .flicker-feed { text-align: center; }
+}
+/* End larg Screen Style */
+
+/* Start Medium Screen Style */
+@media (max-width: 992px) {
+    
+    /* Remove Float From Images In Logo And Ads Div */
+    .logo-and-ads .container .row .logo img { float: none; }
+    .logo-and-ads .container .row .ads img { float: none; width: 100%; }
+    
+    /* Resize The Font In Mega Menu Tabs */
+    .navbar-default .navbar-collapse .mega-menu .tabs-section > li { font-size: .8em; padding-left: 0; }
+
+    /* Change Place Of Menu To Left In Medium Screen */
+    .navbar-default .navbar-collapse .nav > .dropdown-menus > .dropdown ul > li > ul { left: -100%; }
+    .navbar-default .navbar-collapse .nav > .dropdown-menus:first-of-type > .dropdown ul > li > ul { left: 100%; }
+
+    /* Start Main Carousel */
+    .home-posts .container .row .main-carousel { margin-right: 1px; }
+    /* End Main Carousel */
+
+    /* Start Home Content */
+    .recent-posts .post .post-img img { margin-bottom: 15px;}
+    .recent-posts .post .post-img .type { left: 0; }
+    /* End Home Content */
+
+    /* Start Weather Area */
+    .weather .weather-content .weather-todays-stats { padding-top: 60px; }
+    /* End Weather Area */
+    
+    /* Start Ads Area */
+    .ads .ads-content a { float: left; padding-right: 10px; }
+    .ads .ads-content .left { padding-left: 0; padding-right: 10px; }
+    .ads .ads-content .right { padding-right: 0; padding-left: 10px; }
+    /* End Ads Area */
+    
+    /* Start Footer */
+    .footer .posts { padding-right: 0; }
+    .footer .recent-posts .media .media-heading { font-size: .85em; }
+    .footer .flicker-feed { text-align: center; }
+    .footer .flicker-feed .photos ul > li > a { width: 100%; padding: 3px 0; }
+    .footer .photos { padding: 0 10px; }
+    .footer .about .about-us h6 { display: block; }  
+    /* End Footer */
+}
+/* End Medium Screen Style */
+
+/* Start Small Screen Style */
+@media (max-width: 767px) {
+
+    body { box-shadow: none; }
+    
+    /* Start Navbar */
+    .navbar .container { padding-left: 15px; padding-right: 15px; }
+
+    .navbar-default .navbar-collapse {
+        width: 100%;
+        overflow: hidden;
+        padding: 0 15px;
+        border-top: none;
+        position: absolute;
+        background-color: rgba(0, 128, 206, .9);
+        background-image: url("../images/home/dotted.png");
+        z-index: 200;
+    }
+
+    .navbar-default .navbar-collapse .nav { margin-top: 0; margin-bottom: 0; }
+
+    .navbar-default .navbar-collapse .nav > li > a { 
+        padding: 22px 0; 
+        color: #FFF;
+        text-align: center;
+        font-size: 1em;
+        background-color: transparent;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    }
+
+    .navbar-default .navbar-collapse .nav > .active > a,
+    .navbar-default .navbar-collapse .nav > li > a:hover { 
+        background-color: rgba(0, 0, 0, .25); 
+        color: #FFF !important;
+        border-color: rgba(255, 255, 255, 0.25) !important;
+    }
+
+    /* Add Border To The Bottom Of Navbar */
+    .container > .navbar-header { height: 40px; border-bottom: 1px solid #EEE; padding-left: 10px; }
+    /* End Navbar */
+
+    /* Start Breaking News Area */
+    .breaking-news .container { padding: 0 15px; }
+    .breaking-news .container .breaking { margin-top: 10px; }
+    .breaking-news .container .breaking .title { font-size: .8em; }
+
+    /* Start Breaking News Animation Keyframe */
+    @keyframes breaking-news  { 0% { right: -100%; } 100% { transform: translateX(-100%);  } }
+    /* End Breaking News Animation Keyframe */
+
+    /* End Breaking News Area */
+
+    /* Start Main Carousel */
+    .home-posts .container { padding-left: 30px; padding-right: 30px; }
+    .home-posts .container .row .item img { min-height: 250px; }
+    .home-posts .container .row .main-carousel { margin-right: 1px; }
+    .home-posts .container .row .main-carousel .carousel-indicators { width: 100%; left: 0; right: 0; text-align: center; margin-left: 0; }
+    .home-posts .container .row .main-carousel .carousel-caption { width: 100%; bottom: 0; height: auto; }
+    .home-content .photography .row .large-post .about-photo p,
+    .home-posts .container .row .main-carousel .carousel-caption p { display: none;}
+    /* End Main Carousel */
+
+    /* Start Home Content */
+    .home-content .life-style .row .left,
+    .recent-posts .post .post-img,
+    .fashion .row .left,
+    .home-content .travel .row .left { padding-right: 0; }
+    .recent-posts .post .post-body,
+    .home-content .life-style .row .right,
+    .fashion .row .right,
+    .home-content .travel .row .right { padding-left: 0; }
+    /* End Home Content */
+
+    /* Start Fashion */
+    .fashion .main-post .the-post { font-size: 1em; top: auto; bottom: 0; width: 100%; height: 50%; }
+    .fashion .post { width: 100%; padding: 0;  }
+    .fashion img { margin: 0; width: 100%; }
+    /* End Fashion */
+
+    /* Start Ads Area */
+    .ads .ads-content .left { width: 100%; padding-right: 0; }
+    /* End Ads Area */
+
+    /* Start Footer */
+    .footer .about a > img { margin-bottom: 15px; }
+    .footer .about .about-us > p { text-align: center; margin-bottom: 30px; }
+    .footer .follow,
+    .footer .categories { margin-left: 15px; margin-right: 15px;  }
+    .footer .flicker-feed { text-align: left; margin-top: 15px; padding-left: 0; }
+    .footer div h4 { margin-bottom: 15px; }
+    .footer .flicker-feed .photos { padding-left: 15px; }
+    .footer .recent-posts .media:last-of-type { margin-bottom: 0; padding-bottom: 15px;  }
+    .footer .container > .row { padding-right: 0; }
+    /* End Footer */
+
+}
+/* End Small Screen Style */
+
+/* Start Extra Small Screen Style */
+@media (max-width: 400px) { .gallery-content .item { width: 100%; } }
+/* End Extra Small Screen Style */

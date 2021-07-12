@@ -1,0 +1,19 @@
+/****************************************************
+
+SELLVAS TEMPLATE TEMPLATE
+
+Author: Ali Nasser
+Website: https://www.behance.net/ali_mohamed_nasser
+Adress: Damascus - Syria
+Version: 1.0
+Primary Use: Magazine, Blog
+
+****************************************************/
+
+/* Start Boxed Style */
+body { background-image: url("../images/Home/bg.png"); }
+.boxed { width: 1170px; background-color: #FFF; box-shadow: 0 0 15px rgba(0, 0, 0, .3); margin: 0 auto; }
+@media (max-width: 1200px) { .boxed { width: 970px; } }
+@media (max-width: 992px) { .boxed { width: 750px; } }
+@media (max-width: 767px) { .boxed { width: 100%; } }
+/* End Boxed Style */

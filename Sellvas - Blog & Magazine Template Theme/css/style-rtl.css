@@ -1,0 +1,175 @@
+/****************************************************
+
+SELLVAS TEMPLATE TEMPLATE
+
+Author: Ali Nasser
+Website: https://www.behance.net/ali_mohamed_nasser
+Adress: Damascus - Syria
+Version: 1.0
+Primary Use: Magazine, Blog
+
+****************************************************/
+
+/* Start RTL Styles */
+.navbar-default .navbar-collapse .random-icon { float: left !important; transform: rotate(180deg); }
+.navbar-default, .navbar-default .navbar-collapse { width: 100%; clear: both; padding-right: 0; }
+.navbar-default .home3 { padding-left: 15px; }
+.navbar-default .navbar-collapse .search-area button { left: 0; }
+.navbar-default .navbar-collapse .search-area input { text-align: right; }
+.navbar-nav > li, .logo-and-ads, .navbar-default .navbar-collapse .nav { float: right; }
+.navbar-default .navbar-collapse .nav > li > a { margin-left: 3px; margin-right: 0; }
+.navbar-default .navbar-collapse .nav > .dropdown-menus > .dropdown,
+.navbar-default .navbar-collapse .mega-menu .tabs-section, .post-category a,
+.navbar-default .navbar-collapse .nav > li > .content-review { left: auto; right: 0; }
+.navbar-default .navbar-collapse .mega-menu .tab-content { right: 16.6666666%; left: 0; }
+.navbar-default .navbar-collapse .nav > .dropdown-menus > .dropdown ul > li { text-align: right; }
+.navbar-default .navbar-collapse .nav > .dropdown-menus > .dropdown ul > li > a > i { float: left; transform: rotate(180deg); }
+.navbar-default .navbar-collapse .nav > .dropdown-menus > .dropdown ul > li > ul { left: -100%; right: auto; }
+.navbar-default .navbar-collapse .mega-menu .tabs-section > li { text-align: left; }
+.logo-and-ads .container .row .logo, .space-w, .logo-and-ads .container .row .logo img { float: right; }
+.navbar-default .navbar-collapse .nav > li > a > .better-custom-badge { right: 14px; left: auto; }
+.navbar-default .navbar-collapse .nav > li > a > .better-custom-badge:after { right: 5px; left: auto; }
+.logo-and-ads .container .row .ads, .logo-and-ads .container .row .ads img { float: left; }
+.breaking-news, .home-posts .container { clear: both; }
+.home-content .container { overflow: hidden; }
+.container-fluid .row .content .about-photo .squer,
+.home-posts .container .row .item .content .about-photo .squer { float: right; position: relative; top: 7px; }
+.home-posts .about-photo .hr { display: block; width: 0; height: 2px; margin-bottom: 10px; text-align: right; float: right; }
+.home-posts .container .row .item:hover .content .about-photo .hr { width: 50%; text-align: right; float: right; }
+.mobile-news .meta > span, .mobile-news .meta > span i, .recent-posts .meta,
+.home-content .life-style .meta > span { text-align: right; float: right; padding-right: 0; padding-left: 10px; }
+.home-content .life-style .main-post p { margin-top: 30px; }
+.home-posts .container .row .item .content .about-photo p,
+.home-content .photography .row .large-post .about-photo .type,
+.home-posts .container .row .item .content .about-photo { text-align: right; float: right; }
+.home-content .container .side .title { text-align: right; padding-right: 30px; }
+.rtl-home2 .container .side .title { padding-right: 0; }
+.home-content .container .side .title > span { left: calc( 100% - 10px ); }
+.home3 .container .side .title > span { left: calc( 100% - 17px ); }
+.rtl .container .side .title > span { left: calc( 100% - 17px ); }
+.home-content .photography .row .main-post h3, .media-body, .best-reviews .item .carousel-caption,
+.home-content .photography .row .large-post .about-photo, .fashion .post a h3, .fashion .post p,
+.home-content .photography .row .main-post p { text-align: right; }
+.home-content .photography .row .main-post span { left: 0; }
+.latest .latest-news .media .post-meta,
+.latest .latest-news .media .post-meta > .fa,
+.home-content .travel .row .media-object .media .post-meta,
+.home-content .travel .row .media-object .media .post-meta > .fa,
+.home-content .photography .row .large-post .about-photo .post-meta > .fa,
+.media-left, .media > .pull-left { float: right; padding-right: 0; padding-left: 10px; }
+.mobile .mobile-news .media .post-meta,
+.home-content .photography .row .media-object .media .post-meta { float: none; }
+.container-fluid .row .content .about-photo .post-meta > .fa,
+.recent-posts .post .post-body .post-meta > .fa,
+.home-content .photography .row .media-object .media .post-meta > .fa { float: right; padding-right: 0; padding-left: 10px; }
+.container-fluid .row .content .about-photo .hr,
+.home-content .photography .row .large-post .about-photo .hr { float: right; }
+.photography .large-post .about-photo .post-meta { right: 20px; bottom: 15px; }
+.home-content .photography .row .large-post .about-photo > button { left: 15px; right: auto; }
+.container-fluid .row .content .left-content { margin-right: 0; margin-left: 10px; text-align: right; }
+.container-fluid .row .content .right-content { margin-right: 10px; margin-left: 0; text-align: right; }
+.home-content .photography .row .large-post .about-photo p,
+.container-fluid .row .content .left-content .about-photo p { margin-top: 22px; }
+.container-fluid .row .content .left-content .about-photo .post-meta { width: 100%; right: 0; }
+.container-fluid .row .content .left-content .about-photo .post-meta > .fa { float: none; }
+.container-fluid .row .content .left-content .about-photo .post-meta > .fa:first-of-type { padding-left: 0; }
+.container-fluid .row .content-rtl-left { padding-left: 0; }
+.container-fluid .row .content-rtl-right { padding-right: 0; }
+.contact .social, .categories ul > .list-group-item { text-align: right; }
+.contact .social ul > li i { margin-left: 10px; }
+.contact .social ul > li > span { padding-left: auto; padding-right: 0; }
+.contact .social ul > li > span:last-of-type { float: left; padding-right: auto; padding-left: 0; }
+.subscribe-form form { position: relative; }
+.mobile .mobile-news .media .post-meta > .fa, .media-right { padding-right: 0; padding-left: 10px; float: right; }
+.subscribe-form input { right: 0; left: auto; text-align: right; padding-right: 20px; width: 100%; }
+.subscribe-form button { left: 0; top: 0; }
+.home-content .life-style .left,
+.home-content .life-style .row .left { float: right; padding-left: 10px; padding-right: 0; text-align: right; }
+.home-content .life-style .right,
+.home-content .life-style .row .right { float: left; padding-left: 0; padding-right: 10px; }
+.home-content .life-style .row .main-post a h3 { margin-bottom: 10px; }
+.home-content .life-style .row .media-object .media .post-meta,
+.home-content .life-style .row .media-object .media .post-meta > .fa,
+.home-content .life-style .row .main-post .post-meta-icons > .fa { padding-left: 15px; padding-right: 0; float: right; line-height: 1.5; }
+.latest-reviews .reviews-content .item .carousel-caption,
+.weather .weather-todays-stats,
+.weather .weather-content .weather-todays-stats, .footer .follow input,
+.fashion .main-post, .categories .categories-content ul > li { text-align: right; }
+.fashion .post span { left: 15px; }
+.weather .widget-container a, .weather .weather-content .weather-todays-stats,
+.weather .weather-content .widget-container a, .categories .categories-content ul > li > span { float: left; }
+.recent-posts .post .post-img .type { right: 15px; left: auto; }
+.blog .recent-posts .post .post-img .type,
+.home4 .post .post-img .type { right: 0; }
+.recent-posts .post .post-img { padding-left: 10px; padding-right: 0; }
+.recent-posts .post .post-body { padding-left: 0; padding-right: 10px; text-align: right; }
+.weather .weather-content .weather-current-temp, .footer .categories ul > li > a, .weather .widget-container span,
+.weather .weather-current-temp, .weather .weather-content .widget-container span { float: right; }
+.weather .weather-content .weather_days_5 .weather-forecast-day { float: right; border: none; border-left: 1px solid rgba(208, 208, 208, .1); }
+.footer .col-sm-3, .footer .col-sm-2, .footer .col-sm-4 { float: right; text-align: right; }
+.footer .about .about-us > p { margin-top: 10px; }
+.footer .follow button { width: 60px; left: 0; }
+.breaking-news .container .breaking .title { float: right; }
+.breaking-news .container .breaking .title:after { left: -8px; border-left: 0; border-right-color: #182d37; }
+.breaking .news .the-news { right: -100%; }
+.breaking .news .the-news i { transform: rotate(180deg); }
+.breaking-news .container .news { text-align: right; }
+@keyframes breaking-news  { 0% { left: -100%; } 100% { transform: translateX(120%); } }
+.fashion.rtl .post.left span { left: 0; }
+.fashion.rtl .post.right span { left: 10px; }
+.home-content .travel { text-align: right; }
+.home-content .travel .row .main-post span { left: 0; right: auto; }
+.rtl .post .post-img .type { right: 0; }
+.fashion-and-vogue, .side .social ul li, 
+.main-slider .container .owl-carousel .item .post-info { text-align: right; }
+.side .social ul li a span:last-of-type, .list-group-item > .badge { float: left; }
+.side .social ul li a i { border-right: none; border-left: 1px solid #CCC; }
+.info-and-tech .small-post .meta > span i,
+.fashion-and-vogue .meta > span i, .health-and-sports .meta > span i,
+.info-and-tech .post-info .meta > span i, .recent-posts .meta > span i { margin-right: 0; margin-left: 8px; }
+.fashion-and-vogue .meta > span { float: right; }
+.fashion-and-vogue p, .recent-posts .post .post-body p { margin-top: 35px; }
+.blog .recent-posts .post .post-body p { margin-top: 0; }
+.pr .post .post-body p { margin-top: 35px!important; }
+.home2 nav .pagination, .pr .post .meta > span { float: right; margin-bottom: 0; }
+.pagination > li { float: right; }
+.about-author ul { float: left; }
+.about-author .media .media-left { padding-left: 0; }
+.about-author .media .media-body { padding-right: 20px; } 
+.post, .comments, .related-posts-index .post-meta, .leave-comments { direction: rtl; }
+.post .other-image { padding-right: 0; padding-left: 15px; margin-bottom: 15px; }
+.post-date .author { margin: 0 15px; }
+.post-date i:last-of-type { margin-left: 5px; }
+.page-num { float: left; bottom: -30px; }
+.bottom-pagination nav { overflow: hidden; }
+.post .the-post > ul { padding-right: 40px; padding-left: 0; }
+.post .the-post .said { margin-right: 40px; margin-left: 0; font-size: .9em; }
+.comments .replay { margin-right: 64px; margin-left: 0; }
+.comments .media .media-object { margin-right: 0; margin-left: 10px; }
+.related-posts-index .controls { margin-right: 5px; }
+/* End RTL Styles */
+
+/* Start Media */
+@media (max-width: 1200px) { .footer .flicker-feed .photos ul > li > a { width: 100%; padding: 3px 0; } }
+
+@media (max-width: 992px) {
+	.navbar-default .home3 { padding-left: 10px; }
+	.logo-and-ads .container .row .logo, .space-w, .logo-and-ads .container .row .logo img { float: none; }
+	.logo-and-ads .container .row .logo img { margin-bottom: 20px; }
+	.footer .flicker-feed .photos ul > li > a { left: auto; }
+
+	/* Change Place Of Menu To Left In Medium Screen */
+    .navbar-default .navbar-collapse .nav > .dropdown-menus > .dropdown ul > li > ul { left: 100%; }
+    .navbar-default .navbar-collapse .nav > .dropdown-menus:first-of-type > .dropdown ul > li > ul { left: -100%; }
+}
+
+@media (max-width: 767px) {
+	.navbar-nav > li, .logo-and-ads, .navbar-default .navbar-collapse .nav { float: none; }
+	.recent-posts .post .post-img,
+	.home-content .life-style .row .left { padding-left: 0;  }
+	.recent-posts .post .post-body,
+	.home-content .life-style .row .right { padding-right: 0; }
+	.breaking-news .container .breaking .title { font-size: .85em; }
+	.footer .flicker-feed { text-align: right; margin-top: 15px; padding-right: 0; }
+}
+/* End Media */
