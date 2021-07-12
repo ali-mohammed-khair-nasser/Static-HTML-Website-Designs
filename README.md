@@ -26,16 +26,13 @@ Click on the theme name to see the live preview
 - Cross browser compatible.
 - Font awesome & ion icon integration.
 
-### How to Use these templates?
-It's plain HTML, CSS, and javascript so as long as you know how to edit HTML, CSS, and javascript, you can start customizing these templates right away.
-
-#### HTML Structure
+### HTML Structure
 These themes are responsive layouts with 4+ columns. All of the information within the main content area is nested within a div with a class of "container". The general template structure is the same throughout all of these templates.
 
-#### CSS Files and Structure
+### CSS Files and Structure
 I'm using two CSS files in this theme. The first one is a generic reset file. Many devices interpret the default behavior of HTML elements differently. By using a general reset CSS file, we can work around this. This file also contains some general styling, such as change colors, font sizes, etc on the small screen. Keep in mind, that these values might be overridden somewhere else in the file. The second file contains all of the specific stylings for the page.
 
-#### Javascript Structure
+### Javascript Structure
 In these themes there are some Javascript files import but don't worry becouse all needed files and plugins are included with the project files and this files and plugins are:
 - [jQuery](https://jquery.com/): is a library that greatly reduces the amount of code that you must write.
 - [Bootstrap](https://getbootstrap.com/): is a framework that has a few classes with a nice CSS style and some effects that helped me to make these projects better and fully responsive.
