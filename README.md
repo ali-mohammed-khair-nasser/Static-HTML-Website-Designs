@@ -2,9 +2,9 @@
 ### Introduction
 This is a collection of landing pages and blog templates designed by me. It's fully responsive and based on HTML, CSS, javascript, jquery, and Bootstrap. I'm creating this repository as a portfolio to get a job, whether it's freelance, part-time, full-time, or contract. If you're interested in hiring me, feel free to [send me an email](mailto:ali.nasser.it@gmail.com).
 
-### In This Repositry You Will Find The Following Themes
+### In this repositry you will find the following themes
 Click on the theme name to see the live preview
-- [Canox](https://ali-mohamed-nasser.github.io/Static-HTML-Website-Designs/Canox%20-%20Blog%20Template%20Theme/index.html): Modern and Professional blog theme for making a professional blogging website.
+- [Canox](https://ali-mohamed-nasser.github.io/Static-HTML-Website-Designs/Canox%20-%20Blog%20Template%20Theme/index.html): Modern and professional blog theme for making a professional blogging website.
 - [Konish](https://ali-mohamed-nasser.github.io/Static-HTML-Website-Designs/Konish%20-%20Company%20Landing%20Page%20Template/index.html): Beautiful landing page for technical company.
 - [Sass](https://ali-mohamed-nasser.github.io/Static-HTML-Website-Designs/Sass%20-%20Company%20Landing%20Page%20Template/index.html): Another landing page for a company.
 - [Wedding](https://ali-mohamed-nasser.github.io/Static-HTML-Website-Designs/Wedding%20-%20Landing%20Page%20Template/index.html): A modern landing page for wedding event.
