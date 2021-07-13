@@ -52,4 +52,4 @@ In these themes, there are some Javascript files import, and all needed files an
 
 ### Used Images & Illustrations
 All images that used in the designs are 100% free, but it's only for demo purpose.
-[Pexels](https://www.pexels.com/) - [Pixabay](https://pixabay.com/) - [Flaticon](https://www.flaticon.com/) - [Freepik](https://www.freepik.com/)
+- [Pexels](https://www.pexels.com/) - [Pixabay](https://pixabay.com/) - [Flaticon](https://www.flaticon.com/) - [Freepik](https://www.freepik.com/)
