@@ -14,7 +14,7 @@ Click on the theme name to see the live preview, and these designs are **NOT** f
 - [Wedding](https://ali-mohamed-nasser.github.io/Static-HTML-Website-Designs/Wedding%20-%20Landing%20Page%20Template/index.html): Modern and beautiful landing page for a wedding event.
 
 # About These Themes
-### Main Features Of These Designs
+### Main features of these designs
 - HTML5, CSS3, Javascript, jQuery, and Bootstrap.
 - Nice parallax effects.
 - Valid scripts and nice organized codes.
@@ -33,7 +33,7 @@ Click on the theme name to see the live preview, and these designs are **NOT** f
 - Author box included.
 - Custom error 404 pages.
 
-### Used Javascript libraries
+### Used javascript libraries
 In these themes, there are some Javascript files import, and all needed files and plugins are included with the project files and these files and plugins are:
 - [jQuery](https://jquery.com/): jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.
 - [Bootstrap](https://getbootstrap.com/): Free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.
@@ -44,6 +44,6 @@ In these themes, there are some Javascript files import, and all needed files an
 - [TypedJs](https://github.com/mattboldt/typed.js/): a library that types. Enter in any string, and watch it type at the speed you've set, backspace what it's typed, and begin a new sentence for however many strings you've set.
 - And finally in ``` main.js ``` file I collect all of above: I implement a few plugins to create the effects in the themes. These plugins is packed, so you won't need to manually edit anything in the file. The only necessary thing to know is how to call the method.
 
-### Used Images & Illustrations
+### Used images & illustrations
 All images that used in the designs are 100% free, but it's only for demo purpose.
 - [Pexels](https://www.pexels.com/) - [Pixabay](https://pixabay.com/) - [Flaticon](https://www.flaticon.com/) - [Freepik](https://www.freepik.com/)
