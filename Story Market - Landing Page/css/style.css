@@ -1,0 +1,129 @@
+/********************************************************************************************************************************************************
+
+STORY TEMPLATE THEME                                                              ****     ****   **********   ****         ****            *********
+====================                                                              ****     ****   **********   ****         ****          *************
+                                                                                  ****     ****   ****         ****         ****         ****       ****
+Author : TIEQUDE TEAM                                                             ****     ****   ****         ****         ****        ****         ****
+Website: www.tiequde.com                                                          *************   **********   ****         ****        ****         ****
+Adress: Damascus - Syria                                                          *************   **********   ****         ****        ****         ****
+Phone: +963-(931)-600395                                                          ****     ****   ****         ****         ****        ****         ****
+Themeforest Account: themeforest.net/user/tiequde                                 ****     ****   ****         ****         ****         ****       ****
+Theme Version: 1.0                                                                ****     ****   **********   **********   **********    *************
+Primary Use: ...etc                                                               ****     ****   **********   **********   **********      *********
+                                                                                                          
+*********************************************************************************************************************************************************
+
+THE TABLE OF CONTENTS
+=====================
+
+[1]
+
+*********************************************************************************************************************************************************/
+
+/* Start Reset Everything & General Style */
+* { padding: 0; margin: 0; font-family: 'Cairo', sans-serif, Arial, Tahoma; box-sizing: border-box; }
+a, a:hover, a:visited, a:focus { text-decoration: none; }
+img { width: 100%; height: auto; }
+.container-fluid { padding: 0 100px; }
+body { overflow-x: hidden; }
+/* End Reset Everything & General Style */
+
+/* Start intro section */
+.intro { width: 100%; height: 100vh; overflow: hidden; position: relative; }
+.intro .overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, .5); direction: rtl; }
+.intro .overlay .navbar { background-color: transparent; border: none; border-radius: 0; padding-top: 60px; }
+.intro .overlay .navbar .navbar-brand { padding-left: 30px; margin-left: 30px; border-left: 1px solid #FFF; height: 40px; margin-top: 5px; }
+.intro .overlay .navbar .navbar-brand img { position: relative; top: -20px; }
+.intro .overlay .navbar ul li a { color: #FFF; font-family: 'Cairo'; font-size: 15px; font-weight: 200; padding: 15px 20px; padding-top: 10px; }
+.intro .overlay .navbar ul li a.active::after { content: ''; width: 25px; height: 1px; background-color: #FFF; display: inline-block; position: absolute; right: 20px; bottom: 2px; }
+
+.intro .overlay .navbar ul.icons li a { padding: 15px 10px; font-size: 20px; }
+.intro .overlay .navbar ul.icons li a span { font-size: 13px; margin-right: 7px; position: relative; top: -3px; }
+.intro .intro-text { width: 250px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+.intro .item img { height: 100vh!important; }
+/* End intro section */
+
+/* Start categories section */
+.categories { padding: 50px; background-color: #0C0E13; position: relative; min-height: 400px; }
+.categories .skew { width: 100vw; height: 150px; transform: rotate(-4deg); background-color: #0C0E13; position: absolute; top: -80px; left: 0; }
+.categories .section-title { position: absolute; top: -25px; left: 50%; transform: translateX(-50%); }
+.categories .section-title img { width: 180px; height: 130px; position: relative; }
+.categories .section-title::after { content: ''; width: 100px; height: 1px; background-color: #FFF; display: inline-block; position: absolute; right: 50%; bottom: 11px; transform: translateX(50%); }
+
+.categories .categories-list { padding-top: 100px; position: absolute; left: 50%; transform: translateX(-50%); width: 800px; }
+.categories .categories-list ul li a { width: 120px; height: 120px; display: inline-block; float: left; border: 1px solid #FFF; margin: 20px; line-height: 120px; border-radius: 50%; transition: all .2s ease-in-out; }
+.categories .categories-list ul li a img { width: 70px; height: 70px; }
+.categories .categories-list ul li a h4 { color: #FFF; font-size: 16px; padding-top: 7px; }
+.categories .categories-list ul li a:hover { transform: scale(1.1); }
+/* End categories section */
+
+/* Start latest storys */
+.latest { padding: 50px; background-image: url('../images/latestBG.png'); position: relative; background-size: cover; background-position: center; }
+.latest .section-title { position: relative; margin-bottom: 40px; text-align: center; }
+.latest .section-title img { width: 220px; height: 130px; position: relative; }
+.latest .section-title::after { content: ''; width: 100px; height: 1px; background-color: #707070; display: inline-block; position: absolute; right: 50%; bottom: 11px; transform: translateX(50%); }
+
+.latest .works .row .nav-tabs { position: relative; display: inline-block; border: none; margin-bottom: 40px; }
+.latest .works .row .nav-tabs li a { border: none; font-size: 15px; color: #0C0E13; opacity: .33; transition: all .3s ease-in-out; }
+.latest .works .row .nav-tabs li a:hover, .latest .works .row .nav-tabs li.active a { background-color: transparent; opacity: 1; }
+
+.latest .works .tab-content .tab-pane .item { overflow: hidden; position: relative; height: 400px; user-select: none; }
+.latest .works .tab-content .tab-pane .item .info { position: absolute; bottom: 0; width: calc(100% - 30px); }
+.latest .works .tab-content .tab-pane .item img { height: 340px; margin-bottom: 7px; transition: all .3s ease-in-out; }
+.latest .works .tab-content .tab-pane .item .info h5 { font-size: 13px; color: #0C0E13; }
+.latest .works .tab-content .tab-pane .item .info p { font-size: 13px; direction: rtl; margin-top: -4px; color: #0C0E13; }
+.latest .works .tab-content .tab-pane .item .info p span { float: right; opacity: .32; transition: all .3s ease-in-out; }
+.latest .works .tab-content .tab-pane .item .info span.love { float: left; margin-top: -25px; font-size: 18px; color: #0071BC; opacity: 1!important; display: inline-block; cursor: pointer; }
+.latest .works .tab-content .tab-pane .item .info .price { transition: all .3s ease-in-out; }
+
+.latest .works .tab-content .tab-pane .item .more-info { position: absolute; left: 50%; transform: translateX(-50%); top: 300px; color: #C0C0C0; font-size: 11px; opacity: 0; transition: all .3s ease-in-out; }
+.latest .works .tab-content .tab-pane .item .more-info i { font-size: 18px; position: relative; top: 3px; margin-left: 5px; }
+.latest .works .tab-content .tab-pane .item .add-to-cart { color: #0071BC!important; opacity: 0; transition: all .3s ease-in-out; position: absolute; right: 0; }
+.latest .works .tab-content .tab-pane .item .add-to-cart i { font-size: 18px; position: relative; top: 3px; margin-left: 5px; }
+
+.latest .works .tab-content .tab-pane .item:hover img { height: 285px; }
+.latest .works .tab-content .tab-pane .item:hover .more-info { opacity: 1; }
+.latest .works .tab-content .tab-pane .item:hover .price { opacity: 0; }
+.latest .works .tab-content .tab-pane .item:hover .add-to-cart { opacity: 1; }
+
+.latest .skew { width: 110vw; height: 150px; transform: rotate(-3deg); background-color: #F8F8F8; position: absolute; bottom: -80px; left: -15px; z-index: -1; }
+/* End latest storys */
+
+/* Start special storyes */
+.special { padding: 125px 0; padding-bottom: 50px; user-select: none; }
+.special .section-title { position: relative; margin-bottom: 50px; text-align: center; display: block; }
+.special .section-title img { width: 180px; height: 130px; position: relative; right: -50%; transform: translateX(-50%); }
+.special .section-title::after { content: ''; width: 100px; height: 1px; background-color: #707070; display: inline-block; position: absolute; right: 0; bottom: 15px; }
+
+.special .container .row { margin-bottom: 50px; }
+.special .container .row .graid-parent { height: 680px; } 
+.special .container .row .graid-parent .graid { background-color: #CCC; margin-bottom: 30px; overflow: hidden; position: relative; }
+.special .container .row .graid-parent .graid-3 { height: 40%; }
+.special .container .row .graid-parent .graid-7 { height: 60%; }
+
+.special .container .row .graid-parent .graid img { height: 100%; width: auto; }
+.special .container .row .graid-parent .graid .overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, .4); padding: 15px 20px; opacity: 0; transition: all .3s ease-in-out; }
+.special .container .row .graid-parent .graid .overlay .rating { color: #0071BC; cursor: pointer; }
+
+.special .container .row .graid-parent .graid .overlay .info { position: absolute; bottom: 5px; right: 20px; }
+.special .container .row .graid-parent .graid .overlay .info h5 { font-size: 13px; color: #FFF; }
+.special .container .row .graid-parent .graid .overlay .info p { font-size: 13px; direction: rtl; margin-top: -4px; color: #0071BC; }
+
+.special .container .row .graid-parent .graid .overlay .options { position: absolute; bottom: 20px; }
+.special .container .row .graid-parent .graid .overlay .options span { color: #FFF; margin-right: 8px; font-size: 18px; cursor: pointer; }
+
+.special .container .row .graid-parent .graid:hover .overlay { opacity: 1; }
+/* End special storyes */
+
+/* Start separate */
+.separate { width: 700px; position: relative; left: 50%; transform: translateX(-50%); }
+.separate hr { border-color: #B7B7B7; opacity: .4; }
+/* End separate */
+
+/* Start footer */
+footer { padding: 100px 0; padding-bottom: 50px; }
+footer a img { width: 120px; margin-bottom: 40px; }
+footer .social { display: block; width: 276px; position: relative; left: 50%; transform: translateX(-50%); margin-bottom: 40px; }
+footer .social li a img { float: left; width: 40px; height: 40px; margin: 3px; }
+footer p { color: #6B6B6B; margin-top: 85px; }
+/* End footer */
