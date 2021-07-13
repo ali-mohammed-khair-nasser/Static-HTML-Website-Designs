@@ -1,6 +1,6 @@
 # Static HTML Websites Collection
 ### Introduction
-This is a collection of landing pages and blog templates designed by me. These themes are fully responsive and mobile friendly and it's based on HTML, CSS, javascript, jquery, and Bootstrap. I'm creating this repository as a portfolio to show my work as a frontend web developer for getting a job opportunity, whether it's freelance, part-time, full-time, or contract works. If you think that my services could be useful to you and you're interested in hiring me, feel free to [send me an email](mailto:ali.nasser.it@gmail.com).
+This is a collection of landing pages and blog templates designed by me. These themes are fully responsive and mobile-friendly and it's based on HTML, CSS, javascript, jquery, and Bootstrap. I'm creating this repository as a portfolio to show my work as a frontend web developer for getting a job opportunity, whether it's freelance, part-time, full-time, or contract works, and these designs are just a simple part of my work bacouse I can't put my clients works here for public. If you think that my services could be useful to you and you're interested in hiring me, feel free to [send me an email](mailto:ali.nasser.it@gmail.com).
 
 ### In this repositry you will find the following designs
 Click on the theme name to see the live preview, and these designs are **NOT** for personal or commercial use, they are for display purposes only ( to show my frontend skills ).
