@@ -14,29 +14,32 @@ Click on the theme name to see the live preview, and these designs are **NOT** f
 - [Wedding](https://ali-mohamed-nasser.github.io/Static-HTML-Website-Designs/Wedding%20-%20Landing%20Page%20Template/index.html): Modern and beautiful landing page for a wedding event.
 
 # Main Features Of These Designs
-- HTML5, CSS3, Javascript, jQuery.
+- HTML5, CSS3, Javascript, jQuery, and Bootstrap.
 - Nice parallax effects.
-- Valid scripts and codes.
+- Valid scripts and nice organized codes.
 - Minimal, modern, and clean designs.
-- Used free google fonts like Roboto and Raliway.
-- All files are well commented.
-- Built with Bootstrap version (3.3.7).
-- 100% Fully Responsive Design and Layout and Mobile Friendly.
-- Main Carousel Slider Widget.
-- jQuery and CSS3 effects.
-- Drop-downs and menus are optimized for mobile devices.
+- Used free google fonts like [Roboto](https://fonts.google.com/specimen/Roboto) and [Raleway](https://fonts.google.com/specimen/Raleway).
+- All files are well commented to easy edit.
+- 100% Fully responsive designs and layouts, and mobile friendly.
+- Support carousel slider.
+- Include jquery and CSS3 effects.
+- Drop-down menus and normal menus are optimized for mobile devices too.
 - Support breadcrumb for a better navigation.
 - Cross browser compatible.
 - Font awesome & ion icon integration.
+- Post formats support.
+- Related posts under posts.
+- Author box included.
+- Custom error 404 pages.
 
 # Projects Structure
 ### HTML code structure
 These themes are responsive layouts with 4+ columns. All of the information within the main content area is nested within a div with a class of "container". And in the blogging and magazine designs, the page split into main side and sidebar. The general template structure is the same throughout all of these templates, each part of the design split from the other parts in a way makes it easy to maintains and update that code.
 
-### CSS files and code structure
+### CSS files & code structure
 I'm using two CSS files in these themes. The first one is a generic reset file. Many devices interpret the default behavior of HTML elements differently. By using a general reset CSS file, we can work around this. This file also contains some general styling, such as change colors, font sizes, etc on the small screen. Keep in mind, that these values might be overridden somewhere else in the file. The second file contains all of the specific stylings for each page.
 
-### Javascript libraries and its use
+### Javascript libraries & its use
 In these themes, there are some Javascript files import, and all needed files and plugins are included with the project files and these files and plugins are:
 - [jQuery](https://jquery.com/): jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.
 - [Bootstrap](https://getbootstrap.com/): Free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.
@@ -46,3 +49,10 @@ In these themes, there are some Javascript files import, and all needed files an
 - [Mixitup](https://www.kunkalabs.com/mixitup-multifilter/docs/get-started/): High-performance, dependency-free library for animated DOM manipulation, giving you the power to filter, sort, add and remove DOM elements with beautiful animations. MixItUp plays nice with your existing HTML and CSS, making it a great choice for responsive layouts and compatible with inline-flow, percentages, media queries, flexbox, and more.
 - [TypedJs](https://github.com/mattboldt/typed.js/): a library that types. Enter in any string, and watch it type at the speed you've set, backspace what it's typed, and begin a new sentence for however many strings you've set.
 - And finally in ``` main.js ``` file I collect all of above: I implement a few plugins to create the effects in the themes. These plugins is packed, so you won't need to manually edit anything in the file. The only necessary thing to know is how to call the method.
+
+### Used Images & Illustrations
+All images that used in the designs are 100% free, but it's only for demo purpose.
+- [Pexels](https://www.pexels.com/)
+- [Pixabay](https://pixabay.com/)
+- [Flaticon](https://www.flaticon.com/)
+- [Freepik](https://www.freepik.com/)
