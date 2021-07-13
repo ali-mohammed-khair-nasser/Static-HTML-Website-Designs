@@ -13,7 +13,8 @@ Click on the theme name to see the live preview, and these designs are **NOT** f
 - [Tieqode](https://ali-mohamed-nasser.github.io/Static-HTML-Website-Designs/Tieqode%20Website/index.html): TIEQODE is a team of professionals with the requisite business and technical skills, sound leadership, experience, and knowledge to deliver the best solutions and services for clients. And when I joined the TIEQODE team I worked on their website, and you can see the website here.
 - [Wedding](https://ali-mohamed-nasser.github.io/Static-HTML-Website-Designs/Wedding%20-%20Landing%20Page%20Template/index.html): Modern and beautiful landing page for a wedding event.
 
-# Main Features Of These Designs
+# About These Themes
+### Main Features Of These Designs
 - HTML5, CSS3, Javascript, jQuery, and Bootstrap.
 - Nice parallax effects.
 - Valid scripts and nice organized codes.
@@ -32,14 +33,7 @@ Click on the theme name to see the live preview, and these designs are **NOT** f
 - Author box included.
 - Custom error 404 pages.
 
-# Projects Structure
-### HTML code structure
-These themes are responsive layouts with 4+ columns. All of the information within the main content area is nested within a div with a class of "container". And in the blogging and magazine designs, the page split into main side and sidebar. The general template structure is the same throughout all of these templates, each part of the design split from the other parts in a way makes it easy to maintains and update that code.
-
-### CSS files & code structure
-I'm using two CSS files in these themes. The first one is a generic reset file. Many devices interpret the default behavior of HTML elements differently. By using a general reset CSS file, we can work around this. This file also contains some general styling, such as change colors, font sizes, etc on the small screen. Keep in mind, that these values might be overridden somewhere else in the file. The second file contains all of the specific stylings for each page.
-
-### Javascript libraries & its use
+### Used Javascript libraries
 In these themes, there are some Javascript files import, and all needed files and plugins are included with the project files and these files and plugins are:
 - [jQuery](https://jquery.com/): jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.
 - [Bootstrap](https://getbootstrap.com/): Free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.
