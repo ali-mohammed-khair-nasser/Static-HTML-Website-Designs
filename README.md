@@ -27,7 +27,7 @@ Click on the theme name to see the live preview, and these designs are **NOT** f
 - Drop-down menus and normal menus are optimized for mobile devices too.
 - Support breadcrumb for a better navigation.
 - Cross browser compatible.
-- Font awesome & ion icon integration.
+- Font awesome & Ion icon integration.
 - Post formats support.
 - Related posts under posts.
 - Author box included.
