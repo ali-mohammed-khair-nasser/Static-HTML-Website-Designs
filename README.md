@@ -45,5 +45,8 @@ In these themes, there are some Javascript files import, and all needed files an
 - And finally in ``` main.js ``` file I collect all of above: I implement a few plugins to create the effects in the themes. These plugins is packed, so you won't need to manually edit anything in the file. The only necessary thing to know is how to call the method.
 
 ### Used images & illustrations
-All images that used in the designs are 100% free, but it's only for demo purpose.
-- [Pexels](https://www.pexels.com/) - [Pixabay](https://pixabay.com/) - [Flaticon](https://www.flaticon.com/) - [Freepik](https://www.freepik.com/)
+All images that used in the designs are 100% free, but it's only for demo purpose, and I used the images, icons, and illustrations from the following websites:
+- [Pexels](https://www.pexels.com/)
+- [Pixabay](https://pixabay.com/)
+- [Flaticon](https://www.flaticon.com/)
+- [Freepik](https://www.freepik.com/)
