@@ -1,0 +1,116 @@
+/*******************************************************************************************************************************************************
+
+HTML5 TEMPLATE THEME                                                              ****     ****   **********   ****         ****            *********
+====================                                                              ****     ****   **********   ****         ****          *************
+                                                                                  ****     ****   ****         ****         ****         ****       ****
+Author : TIEQUDE TEAM                                                             ****     ****   ****         ****         ****        ****         ****
+Website: www.tiequde.com                                                          *************   **********   ****         ****        ****         ****
+Adress: Damascus - Syria                                                          *************   **********   ****         ****        ****         ****
+Phone: +963-(931)-600395                                                          ****     ****   ****         ****         ****        ****         ****
+Themeforest Account: themeforest.net/user/tiequde                                 ****     ****   ****         ****         ****         ****       ****
+Theme Version: 1.0                                                                ****     ****   **********   **********   **********    *************
+Primary Use: ...etc                                                               ****     ****   **********   **********   **********      *********
+                                                                                                          
+*********************************************************************************************************************************************************
+
+THE TABLE OF CONTENTS
+=====================
+
+[1]
+
+*********************************************************************************************************************************************************/
+
+/* Start Reset Everything & General Style */
+* { padding: 0; margin: 0; font-family: "Raleway", sans-serif, Arial, Tahoma; box-sizing: border-box; }
+a, a:hover, a:visited, a:focus { text-decoration: none; }
+img { width: 100%; height: auto; }
+section { padding: 75px 0; }
+.section-title .icon { font-size: 24px; color: #A5A5A5; line-height: 1; margin-bottom: 5px; }
+.section-title h2 { margin: 0; font-size: 28px; color: #141414; position: relative; padding-bottom: 15px; }
+.section-title h2::before { content: ''; position: absolute; width: 50px; height: 2px; background: #0871C2; bottom: 0; left: 50%; transform: translateX( -50% ); }
+.section-title .section-description { max-width: 700px; margin: 40px auto 80px; }
+.section-title .section-description p { margin: 0; font-size: 13px; color: #666; line-height: 21px; }
+.transTitle { position: absolute; top: 50%; left: -8px; transform: translateY(-50%); font-size: 100px; text-transform: uppercase; font-weight: 900; letter-spacing: 3px; opacity: .5; }
+.rectangle { width: 450px; height: 200px; border: 10px solid #FFF; position: absolute; top: 50%; left: 400px; transform: translateY(-30%); opacity: .1; z-index: 2; }
+/* End Reset Everything & General Style */
+
+/* Start Intro Section */
+.intro { width: 100%; height: 100vh; padding: 0; }
+.intro .right-slider { height: 100%; background-color: #777; padding: 0; }
+.intro .right-slider .item img { height: 100vh; width: auto; filter: blur(25px); transform: scale(1.1, 1.1); }
+.intro .right-slider .owl-theme .owl-controls { position: absolute; bottom: 10px; left: -75px; }
+.intro .right-slider .owl-theme .owl-controls span { border-radius: 50%; height: 4px; width: 4px; transition: all .2s ease-in-out;  }
+.intro .right-slider .owl-theme .owl-controls .owl-page.active span,
+.intro .right-slider .owl-theme .owl-controls .owl-page:hover span { transform: scale(2, 2); border-radius: 100%; }
+.intro .right-slider .owl-theme .owl-controls .owl-page.active span { background-color: #FFF; }
+.intro .left-intro { background-image: url('../images/dotted.png'); height: 100%; position: relative; }
+.intro .left-intro p { color: #FFF; font-size: 24px; width: 550px; position: absolute; top: 50%; margin: 0; margin-top: -12px; left: 40%; z-index: 2; }
+.intro .left-intro p span { color: #0871C2; font-weight: 600; }
+.intro .left-intro p .underline { width: 70px; height: 2px; background-color: #0871C2; display: block; margin-top: 25px; }
+.intro .left-intro p a { color: #FFF; font-size: 11px; text-transform: uppercase; font-weight: 700; letter-spacing: .8px; position: relative; top: 10px; opacity: .7; transition: all .2s ease-in-out; }
+.intro .left-intro p a i { font-size: 18px; margin-left: 4px; position: relative; top: 3px; color: #3498DB; }
+.intro .left-intro p a:hover { opacity: 1; }
+.intro .left-intro .logo { position: absolute; left: 50px; top: 50px; border-left: 6px solid #0871C2; height: 40px; padding-left: 15px; }
+.intro .left-intro .logo h4 { margin: 0; color: #FFF; text-transform: uppercase; font-weight: 300; letter-spacing: .3px; line-height: 1.2; }
+.intro .left-intro .logo h4 span { font-weight: 900; }
+.intro .scroll-down { width: 16px; height: 27px; border: 1px solid #FFF; position: absolute; border-radius: 15px; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 5px; }
+.intro .scroll-down span { width: 4px; height: 4px; border-radius: 50%; display: block; background-color: #FFF; position: absolute; top: 4px; transition: all .3s ease-in-out; }
+.intro .scroll-down:hover span { transform: translateY(12px); }
+/* End Intro Section */
+
+/* Start About Us Section */
+.about-us { width: 100%; background-color: #f7f7f7; position: relative; }
+.about-us .container { padding: 0 120px; }
+.about-us .row div .inner { width: 250px; height: 250px; margin: auto; background-color: #EEE; padding: 30px 10px; cursor: pointer; transition: all .3s ease-in-out; }
+.about-us .row div .inner i { font-size: 80px; color: #0871C2; }
+.about-us .row div .inner h4 { font-family: 'Open Sans'; font-size: 16px; font-weight: 400; color: #141414; margin-top: -10px; }
+.about-us .row div .inner p { font-size: 13px; color: #888; }
+/* End About Us Section */
+
+/* Start More About This Project Section */
+.more-about { background-image: url('../images/ball.jpg'); background-size: cover; background-position: center; }
+.more-about .section-title h2 { color: #FFF; }
+.more-about .section-title h2::before { left: 27px; }
+.more-about p, .more-about .section-title .section-description { margin-left: 0; max-width: 600px; margin-bottom: 30px; }
+.more-about p, .more-about .section-title .section-description p { color: #FFF; margin-bottom: 30px; font-size: 13px; }
+.more-about button { padding: 8px 25px; font-size: 13px; background-color: transparent; border: 1px solid #666; color: #DDD; margin-right: 10px; transition: all .3s ease-in-out; font-weight: 600; outline: none; }
+.more-about button a { color: #DDD; display: block; }
+.more-about button.active a, .more-about button:hover a { color: #0871C2; display: block; }
+.more-about button.active, .more-about button:hover { background-color: #FFF; color: #0871C2; border-color: #FFF; }
+/* End More About This Project Section */
+
+/* Start User Documentation */
+.documentation { border-bottom: 1px solid #DDD; background-color: #f7f7f7; }
+.documentation .section-title .section-description { max-width: 920px; }
+.documentation .row .feature { padding: 30px; }
+.documentation .row .feature .inner { padding: 40px 20px; background-color: #EEE; color: #141414; height: 230px; cursor: pointer; }
+.documentation .row .feature .inner i { font-size: 36px; color: #0871C2; }
+.documentation .row .feature .inner p { font-size: 13px; color: #888; }
+/* End User Documentation */
+
+/* Start Structure Section */
+.structure { overflow: hidden; }
+.structure .section-title h2::before { left: 27px; }
+.structure .right { padding-right: 0; }
+.structure .left .main-ul { margin-left: 100px; margin-top: 40px; }
+.structure .left .main-ul > li { color: #141414; background-color: #F1F1F1; padding: 15px; margin-bottom: 15px; }
+.structure .left .main-ul li ul { padding: 10px 20px; }
+.structure .left .main-ul i { margin-right: 5px; color: #0871C2; }
+.structure .left .main-ul li ul li { color: #7D8C9F; font-size: 13px; margin-bottom: 5px; font-weight: 100; }
+.structure .left .main-ul li ul li i { color: #7D8C9F;  }
+/* End Structure Section */
+
+/* Start Download Section */
+.download { background-image: url('../images/bg0.png'); padding: 40px; border-top: 1px solid #DEDEDE; font-family: 'Raleway', Arial; }
+.download h4 { margin-bottom: 25px; color: #141414; }
+.download button { padding: 8px 25px; font-size: 13px; background-color: #0871C2; border: none; color: #FFF; margin-right: 10px; transition: all .3s ease-in-out; outline: none; }
+.download button a { color: #FFF; display: block; }
+.download button:hover { background-color: #27AE60; }
+/* End Download Section */
+
+/* Start Footer */
+footer { padding: 50px; background-color: #333; }
+footer i { font-size: 60px; color: #0871C2; }
+footer h4 { margin-bottom: 20px; color: #CCC; text-transform: uppercase; font-size: 16px; font-weight: 600; }
+footer h6 { margin: 0; }
+/* End Footer 
