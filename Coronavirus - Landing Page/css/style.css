@@ -115,7 +115,7 @@ section { padding: 75px 0; }
 .statistics .container .stats .country-stats { padding: 63px 0; padding-left: 40px; }
 .statistics .container .stats .country-stats .statistic { padding: 0; }
 .statistics .container .stats .country-stats .statistic p { margin-top: 5px; letter-spacing: 0; }
-.statistics .container .stats .country-stats .statistic .section-title { border-right: 1px solid rgba(188, 191, 204, .5); margin-top: 0; font-size: 32px; letter-spacing: .3px; }
+.statistics .container .stats .country-stats .statistic .section-title { border-right: 1px solid rgba(188, 191, 204, .5); margin-top: 0; font-size: 36px; letter-spacing: .3px; }
 .statistics .container .stats .country-stats .statistic:last-of-type .section-title { border: none; margin-left: -30px; }
 .statistics .container .stats .country-stats .statistic .section-title span { text-align: center; }
 .statistics .container .stats .country-stats .statistic .section-title.green span { color: #40CD79; }
